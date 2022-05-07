@@ -42,3 +42,14 @@ string[] GetValidArray(string[] array)
         return ValidArray;
     }
 }
+string PrintArray(string[] array)
+{
+    int size = array.Length;
+    string print = String.Empty;
+    for (int i = 0; i < size; i++)
+    {
+        print += $"{array[i]}  ";
+    }
+
+    return print;
+}
